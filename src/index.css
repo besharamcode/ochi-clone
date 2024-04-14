@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: foundersGrotesk;
+  src: url(./fonts/FoundersGrotesk-Bold.otf);
+}
+
+@font-face {
+  font-family: neueMontreal;
+  src: url(./fonts/NeueMontreal-Light.ttf);
+}
+
+@font-face {
+  font-family: neueMontreal-md;
+  src: url(./fonts/NeueMontreal-Medium.ttf);
+}
+
+.card:hover .img {
+  scale: 0.9;
+  transition: all 0.2s cubic-bezier(0.76, 0, 0.24, 1);
+}
